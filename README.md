@@ -21,13 +21,17 @@ The algorithm we use to minimize the cost function is known as Gradient Descent 
 It involoes three important steps:-
 * Start with a given value v
 * Iterate:
-  * v(i+1) = v(i) + a * f'(v) [here,a is the learning rate] 
+  * v(i+1) = v(i) + a * f'(v)  [here,a is the learning rate] 
 * Stop after some condition is matched.
 
 ## In terms of linear Regression
 To minimize the  cost function we need to partial derivate the cost function in terms of m and c, thus we get
-![](https://miro.medium.com/max/600/1*FvYfCBrl2gX9K-KxSO1eIw.jpeg)
-![](https://miro.medium.com/max/450/1*rj09w2TcBxnHPtQ0oq4ehA.jpeg)
+<p align="center">
+  <img width="460" height="300" src="https://miro.medium.com/max/600/1*FvYfCBrl2gX9K-KxSO1eIw.jpeg">
+</p><br/>
+<p align="center">
+  <img width="460" height="300" src="https://miro.medium.com/max/450/1*rj09w2TcBxnHPtQ0oq4ehA.jpeg">
+</p><br/>
 At each step we need to update the value of m and c. We continue the process until out loss function is quite small or ideally zero.
                           
                           
