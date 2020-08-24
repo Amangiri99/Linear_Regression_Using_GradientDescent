@@ -32,6 +32,10 @@ To minimize the  cost function we need to partial derivate the cost function in 
 <p align="center">
   <img width="460" height="300" src="https://miro.medium.com/max/450/1*rj09w2TcBxnHPtQ0oq4ehA.jpeg">
 </p><br/>
-At each step we need to update the value of m and c. We continue the process until out loss function is quite small or ideally zero.
+At each step we need to update the value of m and c. The formula for upgradation is
+<p align="center">
+  <img width="460" height="300" src="https://miro.medium.com/max/450/1*JDcHqFK8jLcgQu1cj2XuVQ.jpeg">
+</p><br/>
+We continue the process until out loss function is quite small or ideally zero.
                           
                           
